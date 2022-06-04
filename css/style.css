@@ -1,54 +1,37 @@
-.container {
+body {
     font-family: sans-serif;
+    text-transform: none;
+    text-align: justify;
+    font-size: 1.15em;
 }
 
-
-.heading{
-    background: rgba(51, 220, 242, 0.6);
-    font-size: 2em;
-    text-align: center;
-    height: 300px;
+.header {
     border: 10px solid red;
-    margin-bottom: 20px;
+    text-align: center;
+    margin: 10px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.intro {
-    background: rgba(165, 149, 240, 0.4);
-    border: 10px solid rgba(232, 30, 208, 1);
-    padding: 0px 5px 0px 5px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.16em;
+    
     
 }
 
-.projects {
+.about-me {
+    border: 10px solid steelblue;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    background: rgba(252, 140, 66, 0.5);
 }
 
-#project-1 {
-    display: inline-block;
-    padding: 50px;
-    border: 20px solid black;
-    margin: 30px;
+.flex-container {
+    display: flex;
+    height: 250px;
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
 }
 
-
-#project-2 {
-    display: inline-block;
-    padding: 50px;
-    border: 20px solid black;
-    margin: 30px;
-}
-
-
-#project-3 {
-    padding: 50px;
-    display: inline-block;
-    border: 20px solid black;
-    margin: 30px;
+.flex-container-item {
+    margin: 10px;
 }
