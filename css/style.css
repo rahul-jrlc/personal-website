@@ -35,3 +35,14 @@ body {
 .flex-container-item {
     margin: 10px;
 }
+
+.contact-info-container {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    margin: 10px;
+}
